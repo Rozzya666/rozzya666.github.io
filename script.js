@@ -174,7 +174,7 @@ const renderPopupProductCard = (product) => {
         <div class="flex gap-5 flex-wrap justify-center">
             <img class="h-auto" style="width: 280px" src="${product.images && product.images.length > 0
             ? product.images[0]?.src
-            : "../images/no-image.jpg"
+            : "/images/no-image.jpg"
         }" alt="Image">
                 <div class="about-item flex flex-col gap-2">
                     <h2 class="md:text-4xl font-black max-w-[620px] truncate">${product.title}</h2>
